@@ -39,6 +39,11 @@ export default function AdminPage() {
   const [selectedMessageIds, setSelectedMessageIds] = useState<Set<string>>(new Set());
 
   useEffect(() => {
+    // URL에서 OAuth 토큰 제거
+    if (window.location.hash) {
+      window.history.replaceState(null, '', window.location.pathname);
+    }
+
     checkUser();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
