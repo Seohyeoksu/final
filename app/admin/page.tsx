@@ -391,7 +391,7 @@ export default function AdminPage() {
                           type="text"
                           value={newLinkDescription}
                           onChange={(e) => setNewLinkDescription(e.target.value)}
-                          placeholder="예: K-edu Expo 1학년 1반 메시지 월"
+                          placeholder="예: 1학년 1반 수업 피드백"
                           className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white placeholder-white/40 focus:outline-none focus:border-purple-500"
                         />
                       </div>

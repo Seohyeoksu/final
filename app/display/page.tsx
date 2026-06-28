@@ -649,7 +649,7 @@ export default function DisplayPage() {
       {/* Instructions */}
       <div className="absolute top-8 left-1/2 -translate-x-1/2 text-center z-20">
         <h1 className="text-white text-3xl font-bold mb-2">
-          미래교육 비전 디지털 메시지 월
+          수업 피드백 앱
         </h1>
       </div>
     </main>

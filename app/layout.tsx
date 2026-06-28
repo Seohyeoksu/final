@@ -18,8 +18,8 @@ const dancingScript = Dancing_Script({
 });
 
 export const metadata: Metadata = {
-  title: "K-edu 엑스포 - 미래교육 비전 디지털 메시지 월",
-  description: "별이 되어 미래교육을 밝혀주세요",
+  title: "수업 피드백 앱",
+  description: "수업에 대한 피드백을 남겨주세요",
 };
 
 export default function RootLayout({

@@ -55,10 +55,10 @@ export default function LoginPage() {
               🎆
             </motion.div>
             <h1 className="text-white text-3xl font-bold mb-2">
-              미래교육 비전
+              수업 피드백 앱
             </h1>
             <p className="text-white/60 text-sm">
-              디지털 메시지 월 관리자 로그인
+              수업 피드백 앱 관리자 로그인
             </p>
           </div>
 
@@ -114,7 +114,7 @@ export default function LoginPage() {
           {/* 안내 메시지 */}
           <div className="mt-8 p-4 bg-white/5 rounded-xl border border-white/10">
             <p className="text-white/60 text-xs text-center">
-              로그인 후 디지털 메시지 월을 위한 링크를 생성하고 관리할 수 있습니다.
+              로그인 후 수업 피드백 앱을 위한 링크를 생성하고 관리할 수 있습니다.
             </p>
           </div>
         </div>

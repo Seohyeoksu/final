@@ -65,7 +65,7 @@ export default function MessageForm() {
         <div className="text-center mb-6">
           <div className="text-6xl mb-4">🏛️</div>
           <h1 className="text-2xl font-bold text-gray-800 mb-2">
-            별이 되어 미래를 밝혀주세요
+            수업 피드백 앱
           </h1>
           <p className="text-sm text-gray-600">⭐</p>
         </div>
@@ -112,7 +112,7 @@ export default function MessageForm() {
               {...register('message')}
               rows={4}
               className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition resize-none"
-              placeholder="미래교육에 대한 당신의 비전을 남겨주세요"
+              placeholder="수업에 대한 피드백을 남겨주세요"
               disabled={isSubmitting}
             />
             {errors.message && (

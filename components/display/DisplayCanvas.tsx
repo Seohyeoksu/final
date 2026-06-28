@@ -189,10 +189,10 @@ export default function DisplayCanvas() {
       {/* Instructions */}
       <div className="absolute top-8 left-1/2 -translate-x-1/2 text-center z-20">
         <h1 className="text-white text-3xl font-bold mb-2">
-          미래교육 비전 디지털 메시지 월
+          수업 피드백 앱
         </h1>
         <p className="text-white/80 text-lg">
-          스페이스바를 눌러 미래교육의 별을 띄워주세요
+          스페이스바를 눌러 별을 띄워주세요
         </p>
       </div>
 

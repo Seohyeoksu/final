@@ -148,7 +148,7 @@ export default function InputPage() {
               <textarea
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
-                placeholder="미래교육에 대한 응원의 메시지를 남겨주세요"
+                placeholder="수업에 대한 피드백을 남겨주세요"
                 maxLength={200}
                 rows={4}
                 className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white placeholder-white/40 focus:outline-none focus:border-purple-500 transition-colors resize-none"
@@ -173,7 +173,7 @@ export default function InputPage() {
           {/* 안내 메시지 */}
           <div className="mt-6 p-4 bg-white/5 rounded-xl border border-white/10">
             <p className="text-white/60 text-xs text-center">
-              보내주신 메시지는 디지털 메시지 월에 불꽃놀이와 함께 표시됩니다.
+              보내주신 메시지는 수업 피드백 앱에 불꽃놀이와 함께 표시됩니다.
             </p>
           </div>
         </div>
